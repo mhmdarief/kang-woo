@@ -33,11 +33,11 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+          
+        <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="Dasboard" class="nav-link">
+              <i class="fas fa-warehouse"></i>
               <p>
                 Widgets
                 <span class="right badge badge-danger"></span>
@@ -47,7 +47,7 @@
 
           <li class="nav-item">
             <a href="Databuku" class="nav-link">
-              <i class="nav-icon fas fa-home"></i>
+              <i class="fas fa-book"></i>
               <p>
                 Data Buku
                 <span class="right badge badge-danger"></span>
@@ -57,7 +57,7 @@
           
           <li class="nav-item">
             <a href="Dataanggota" class="nav-link">
-              <i class="nav-icon fas fa-users"></i>
+              <i class="fas fa-user-tie"></i>
               <p>
                 Data Anggota
                 <span class="right badge badge-danger"></span>
@@ -67,7 +67,7 @@
           
           <li class="nav-item">
             <a href="Datapinjaman" class="nav-link">
-              <i class="nav-icon fas fa-chart-pie"></i>
+              <i class="fas fa-file-alt"></i>
               <p>
                 Data Pinjaman
                 <span class="right badge badge-danger"></span>
@@ -77,7 +77,7 @@
           
           <li class="nav-item">
             <a href="Dataapengambilan" class="nav-link">
-              <i class="nav-icon fas fa-chart-pie"></i>
+              <i class="fas fa-file-invoice"></i>
               <p>
                 Data Pengambilan
                 <span class="right badge badge-danger"></span>
@@ -87,7 +87,7 @@
           
           <li class="nav-item">
             <a href="Datalaporan" class="nav-link">
-              <i class="nav-icon fas fa-file-alt"></i>
+              <i class="fas fa-receipt"></i>
               <p>
                 Data Laporan
                 <span class="right badge badge-danger"></span>
@@ -97,7 +97,7 @@
           
           <li class="nav-item">
             <a href="Katalogbuku" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
+              <i class="fas fa-calendar"></i>
               <p>
                 Katalog Buku
                 <span class="right badge badge-danger"></span>
@@ -107,13 +107,14 @@
           
           <li class="nav-item">
             <a href="Riwayatpeminjaman" class="nav-link">
-              <i class="nav-icon fas fa-file-alt"></i>
+              <i class="fas fa-th-list"></i>
               <p>
                 Riwayat Peminjaman
                 <span class="right badge badge-danger"></span>
               </p>
             </a>
           </li>
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
