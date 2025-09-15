@@ -36,7 +36,7 @@
           
         <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="Dasboard" class="nav-link">
+            <a href="{{ route('dasboard') }}" class="nav-link">
               <i class="fas fa-warehouse"></i>
               <p>
                 Widgets
@@ -46,7 +46,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="Databuku" class="nav-link">
+            <a href="{{ route('Databuku') }}" class="nav-link">
               <i class="fas fa-book"></i>
               <p>
                 Data Buku
@@ -56,7 +56,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="Dataanggota" class="nav-link">
+            <a href="{{ route('Dataanggota') }}" class="nav-link">
               <i class="fas fa-user-tie"></i>
               <p>
                 Data Anggota
@@ -66,7 +66,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="Datapinjaman" class="nav-link">
+            <a href="{{ route('Datapinjaman') }}" class="nav-link">
               <i class="fas fa-file-alt"></i>
               <p>
                 Data Pinjaman
@@ -76,7 +76,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="Dataapengambilan" class="nav-link">
+            <a href="{{ route('Dataapengambilan') }}" class="nav-link">
               <i class="fas fa-file-invoice"></i>
               <p>
                 Data Pengambilan
@@ -86,7 +86,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="Datalaporan" class="nav-link">
+            <a href="{{ route('Datalaporan') }}" class="nav-link">
               <i class="fas fa-receipt"></i>
               <p>
                 Data Laporan
@@ -96,7 +96,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="Katalogbuku" class="nav-link">
+            <a href="{{ route('Katalogbuku') }}" class="nav-link">
               <i class="fas fa-calendar"></i>
               <p>
                 Katalog Buku
@@ -106,7 +106,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="Riwayatpeminjaman" class="nav-link">
+            <a href="{{ route('Riwayatpeminjaman') }}" class="nav-link">
               <i class="fas fa-th-list"></i>
               <p>
                 Riwayat Peminjaman
